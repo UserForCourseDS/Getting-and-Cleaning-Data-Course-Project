@@ -60,4 +60,4 @@ data4 <- aggregate( . ~ subject + activity, data = data3, FUN = mean )
 
 # write out data4
 setwd("C:/Users/raque/Desktop/Coursera/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
-write.table( data4, "promedio.txt", row.names = FALSE )
+write.table( data4, "averagedata.txt", row.names = FALSE )
